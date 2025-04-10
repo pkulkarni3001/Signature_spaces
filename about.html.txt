@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Same head as index.html -->
+</head>
+<body>
+    <!-- Reuse header from index.html -->
+
+    <section class="about">
+        <div class="container">
+            <h2>Company Profile</h2>
+            <p>Signature Spaces is a turnkey infrastructure solutions provider specializing in corporate interior development and office infrastructure setup. Based in Pune, Mumbai & Bengaluru.</p>
+            
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li>✅ One-Stop Infrastructure Partner</li>
+                <li>✅ Experienced Project Management</li>
+                <!-- Add other points from your doc -->
+            </ul>
+
+            <h3>Vendor Network</h3>
+            <p>We collaborate with certified contractors for electrical, carpentry, and IT infrastructure.</p>
+        </div>
+    </section>
+
+    <!-- Reuse footer from index.html -->
+</body>
+</html>

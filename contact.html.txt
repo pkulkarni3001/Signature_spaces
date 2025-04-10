@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Same head as index.html -->
+</head>
+<body>
+    <!-- Reuse header -->
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="grid">
+                <div class="contact-info">
+                    <h3>Our Offices</h3>
+                    <p>Bengaluru: #312 Cheluvayya Road, Ramamurty Nagar, 560016</p>
+                    <p>Phone: <a href="tel:8884503001">8884503001</a></p>
+                    <p>Email: <a href="mailto:pandurang@signature_spaces.in">pandurang@signature_spaces.in</a></p>
+                </div>
+
+                <form action="https://formsubmit.co/pandurang@signature_spaces.in" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Project Details"></textarea>
+                    <button type="submit">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reuse footer -->
+</body>
+</html>

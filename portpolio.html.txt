@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Same head as index.html -->
+</head>
+<body>
+    <!-- Reuse header -->
+
+    <section class="portfolio">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="filter-buttons">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="it">IT Parks</button>
+                <!-- Add other filters -->
+            </div>
+
+            <div class="gallery">
+                <!-- Client Project 1 -->
+                <div class="project" data-category="it">
+                    <img src="images/projects/srk-tech-park.jpg" alt="SRK Tech Park">
+                    <div class="overlay">
+                        <h3>SRK Tech Park, Bengaluru</h3>
+                        <p>5,000 sq. ft. | Full interior + LAN setup</p>
+                    </div>
+                </div>
+
+                <!-- Sample Office Image -->
+                <div class="project" data-category="office">
+                    <img src="images/samples/manager-cabin.jpg" alt="Manager Cabin">
+                    <div class="overlay">
+                        <h3>Executive Cabin Design</h3>
+                    </div>
+                </div>
+                <!-- Add 6-8 more projects -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reuse footer -->
+    <script src="js/filter.js"></script> <!-- For filtering projects -->
+</body>
+</html>
